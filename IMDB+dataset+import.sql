@@ -1,6 +1,5 @@
 /******************************************************************************************
 / Queries to create a smaller version of IMDB database 
-/ For SQL Assignment from UpGrad. Created by Shreyas M
 /*****************************************************************************************/
 -- Creating and using the database 
 DROP DATABASE IF EXISTS imdb;
@@ -15,7 +14,7 @@ CREATE TABLE movie
  (
   id VARCHAR(10) NOT NULL,
   title VARCHAR(200) DEFAULT NULL,
-  year_ INT DEFAULT NULL,
+  year INT DEFAULT NULL,
   date_published DATE DEFAULT null,
   duration INT,
   country VARCHAR(250),
